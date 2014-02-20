@@ -241,6 +241,8 @@ class Cart {
 	public function total_weight()
 	{
 		$total_weight = 0;
+		$total = 0;
+
 		$cart = $this->getContent();
 
 		if(empty($cart))
